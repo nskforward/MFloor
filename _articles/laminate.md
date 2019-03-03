@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: article
 title: Ламинат
 ---
 A banana is an edible fruit – botanically a berry – produced by several kinds
