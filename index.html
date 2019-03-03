@@ -8,7 +8,7 @@ title: Home
 <ul>
     {% for article in site.articles %}
     <li>
-        <h2>{{ article.title }}</h2>
+        <h3><a href="{{ article.url }}">{{ article.title }}</a></h3>
         <p>{{ article.content | markdownify }}</p>
     </li>
     {% endfor %}
