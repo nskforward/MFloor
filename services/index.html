@@ -1,0 +1,15 @@
+---
+layout: default
+title: Услуги
+keywords: услуги
+description: услуги
+---
+<h1>Услуги</h1>
+<ul>
+    {% for article in site.articles %}
+    <li>
+        <h3><a href="{{ article.url }}">{{ article.title }}</a></h3>
+        {{ article.content | markdownify }}
+    </li>
+    {% endfor %}
+</ul>
