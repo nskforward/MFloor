@@ -1,14 +1,16 @@
 ---
 layout: default
 title: Услуги
+permalink: /services
 keywords: услуги
 description: услуги
 ---
 <h1>Услуги</h1>
-<ul>
+
+<ul class="ml-5">
     {% for article in site.articles %}
     <li>
-        <h3><a href="{{ article.url }}">{{ article.title }}</a></h3>
+        <h4><a href="{{ article.url }}">{{ article.title }}</a></h4>
         {{ article.content | markdownify }}
     </li>
     {% endfor %}
