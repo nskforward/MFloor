@@ -9,7 +9,7 @@ description: Мы осуществляем работы по укладке ла
 
 ### Цены
 
-<table class="table">
+<table class="table table-bordered table-striped">
     <thead>
         <tr>
           <th scope="col">Наименование работы</th>
@@ -23,7 +23,7 @@ description: Мы осуществляем работы по укладке ла
         </tr>
     </tbody>
 </table>
-
+<br>
 
 ### Как выбрать ламинат
 
