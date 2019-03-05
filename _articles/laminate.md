@@ -31,12 +31,11 @@ description: Мы осуществляем работы по укладке ла
         </tr>
     </tbody>
 </table>
-<br>
 
 <div class="alert alert-info" role="alert">
   Минимальная цена заказа <b>3500 руб</b>
 </div>
-
+<br>
 
 ### Как выбрать ламинат
 
