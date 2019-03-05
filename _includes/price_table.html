@@ -1,0 +1,16 @@
+<table class="table table-bordered table-striped">
+    <thead>
+    <tr>
+        <th scope="col">Наименование работы</th>
+        <th scope="col">Цена</th>
+    </tr>
+    </thead>
+    <tbody>
+    {% for price in prices %}
+    <tr>
+        <td>{{ price.name }}</td>
+        <td>{{ price.value }}</td>
+    </tr>
+    {% endfor %}
+    </tbody>
+</table>
