@@ -20,10 +20,6 @@ prices:
 
 {% include price_table.html %}
 
-<div class="alert alert-info" role="alert">
-  Минимальная стоимость всех работ <b>3500 руб</b>
-</div>
-<br>
 
 ### Как выбрать ламинат
 
