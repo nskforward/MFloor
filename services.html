@@ -6,12 +6,9 @@ keywords: услуги
 description: услуги
 ---
 <h1>Услуги</h1>
+<hr>
+<br>
 
-<ul class="ml-5">
-    {% for article in site.articles %}
-    <li>
-        <h4><a href="{{ article.url }}">{{ article.title }}</a></h4>
-        {{ article.content | markdownify }}
-    </li>
-    {% endfor %}
-</ul>
+{% for article in site.articles %}
+<h5><a href="{{ article.url }}">{{ article.title }}</a></h5>
+{% endfor %}

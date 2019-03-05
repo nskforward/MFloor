@@ -1,6 +1,9 @@
 ---
 layout: article
 title: Ламинат
+permalink: /article/laminat
+keywords: укладка, ламинат, стоимость, цена, москва, настил, монтаж, положить, работа, м2, метр, установка, расценки, кв м, Королёв
+description: Мы осуществляем работы по укладке ламината в Москве и Московской области по самым низким ценам с гарантией качества. Здесь вы можете ознакомиться с ценой за 1 м2
 ---
 A banana is an edible fruit – botanically a berry – produced by several kinds
 of large herbaceous flowering plants in the genus Musa.
