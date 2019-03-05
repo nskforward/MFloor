@@ -20,29 +20,6 @@ prices:
 
 {% include price_table.html %}
 
-<table class="table table-bordered table-striped">
-    <thead>
-        <tr>
-          <th scope="col">Наименование работы</th>
-          <th scope="col">Цена за 1 м<sup>2</sup></th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-          <td>Укладка ламината обычным способом</td>
-          <td>95 руб</td>
-        </tr>
-        <tr>
-          <td>Укладка ламината по диагонали</td>
-          <td>200 руб</td>
-        </tr>
-        <tr>
-          <td>Укладка ламината беспороговым способом</td>
-          <td>250 руб</td>
-        </tr>
-    </tbody>
-</table>
-
 <div class="alert alert-info" role="alert">
   Минимальная стоимость всех работ <b>3500 руб</b>
 </div>
