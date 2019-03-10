@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Sitemap: http://mfloor.ru/sitemap.xml
+Host: http://mfloor.ru

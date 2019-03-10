@@ -6,17 +6,14 @@
     <meta name="keywords" content="{{ page.keywords }}">
     <meta name="description" content="{{ page.description }}">
     <link rel="shortcut icon" href="/assets/img/ico/favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/assets/css/bootstrap.min.css">
     <script src="/assets/js/jquery-3.3.1.slim.min.js"></script>
     <title>{{ page.title }}</title>
 </head>
 <body>
 {% include navigation.html %}
 <div class="container pb-4">
-    <div class="text-right">
-
-    </div>
-{{ content }}
+    {{ content }}
     <br>
     <hr>
     <div class="row">
@@ -63,10 +60,11 @@
         Copyright © 2019 MFloor.ru
     </small>
 </div>
-<script defer src="https://use.fontawesome.com/releases/v5.7.2/js/solid.js"></script>
-<script defer src="https://use.fontawesome.com/releases/v5.7.2/js/regular.js"></script>
-<script defer src="https://use.fontawesome.com/releases/v5.7.2/js/brands.js"></script>
-<script defer src="https://use.fontawesome.com/releases/v5.7.2/js/fontawesome.js"></script>
-<script defer src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+<script defer src="/assets/js/fa/solid.js"></script>
+<script defer src="/assets/js/fa/regular.js"></script>
+<script defer src="/assets/js/fa/brands.js"></script>
+<script defer src="/assets/js/fa/fontawesome.js"></script>
+<script defer src="/assets/js/bootstrap.min.js"></script>
+{% include metrics.html %}
 </body>
 </html>
